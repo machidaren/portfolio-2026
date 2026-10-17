@@ -1,0 +1,362 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>PORTFOLIO | Web Developer</title>
+  <meta
+    name="description"
+    content="Web development portfolio. 制作実績とスキルを紹介します。"
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">PORT<span>FOLIO.</span></a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="メニューを開く"
+        aria-expanded="false"
+        aria-controls="global-nav"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="global-nav">
+        <a href="#about">ABOUT</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#works">WORKS</a>
+        <a href="#contact" class="nav-contact">CONTACT <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <p class="eyebrow">
+          <span class="status-dot"></span>
+          WEB DEVELOPER / PORTFOLIO
+        </p>
+
+        <h1>
+          BUILDING<br>
+          <span class="outline-text">DIGITAL</span><br>
+          EXPERIENCES<span class="accent">.</span>
+        </h1>
+
+        <div class="hero-bottom">
+          <p class="hero-description">
+            アイデアを、Webというカタチに。<br>
+            デザインと技術で、使いやすい体験をつくる。
+          </p>
+
+          <a href="#works" class="round-link" aria-label="制作実績を見る">
+            <span>VIEW WORKS</span>
+            <span class="round-arrow">↓</span>
+          </a>
+        </div>
+
+        <p class="hero-index">PORTFOLIO — 2026</p>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-number">01 / ABOUT</p>
+          <h2>WHO <span class="accent">I AM.</span></h2>
+        </div>
+
+        <div class="about-content">
+          <p class="about-lead">
+            技術を学び、<br>
+            アイデアをカタチにする。
+          </p>
+
+          <div class="about-text">
+            <p>
+              Web制作を中心に、フロントエンドの技術や
+              デザインについて学んでいます。
+            </p>
+            <p>
+              見た目の美しさだけでなく、使いやすさや
+              コードの構造も意識しながら制作しています。
+            </p>
+            <p>
+              このポートフォリオでは、これまでの制作実績と
+              学習してきた技術を紹介します。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-number">02 / SKILLS</p>
+          <h2>MY <span class="accent">TOOLKIT.</span></h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-number">01</span>
+            <h3>HTML</h3>
+            <p>情報を整理し、適切な構造のWebページを作成する。</p>
+            <span class="skill-tag">MARKUP</span>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-number">02</span>
+            <h3>CSS</h3>
+            <p>レイアウトや配色、レスポンシブデザインを実装する。</p>
+            <span class="skill-tag">STYLING</span>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-number">03</span>
+            <h3>JavaScript</h3>
+            <p>Webページに動きやインタラクティブな機能を追加する。</p>
+            <span class="skill-tag">INTERACTION</span>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-number">04</span>
+            <h3>PHP / DB</h3>
+            <p>サーバーサイドの処理やデータベースについて学習する。</p>
+            <span class="skill-tag">BACKEND</span>
+          </article>
+        </div>
+
+        <p class="skills-note">
+          ※ 掲載内容は仮の紹介文です。実際の習熟度に合わせて調整します。
+        </p>
+      </div>
+    </section>
+
+```html
+<section class="section works" id="works">
+  <div class="container">
+    <div class="section-heading">
+      <p class="section-number">03 / SELECTED WORKS</p>
+      <h2>THINGS I'VE <span class="accent">BUILT.</span></h2>
+    </div>
+
+    <div class="works-grid">
+
+      <!-- PROJECT 01 : TEMP/ERROR -->
+      <article class="project-card">
+        <a
+          href="https://mcdrn.github.io/ec/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="project-visual visual-temp"
+          aria-label="TEMP/ERRORのサイトを見る"
+        >
+          <span class="visual-label">E-COMMERCE / 01</span>
+          <span class="visual-title">TEMP<span>/</span>ERROR</span>
+          <span class="visual-caption">FASHION E-COMMERCE</span>
+          <span class="visual-arrow">↗</span>
+        </a>
+
+        <div class="project-info">
+          <p class="work-category">01 — EC WEBSITE</p>
+          <h3>TEMP/ERROR</h3>
+          <p class="project-description">
+            ファッションブランドを想定したECサイト。
+            商品一覧・商品詳細・カート・購入フローなど、
+            ECサイトに必要な画面と機能を制作。
+          </p>
+          <div class="tech-list">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <a
+            href="https://mcdrn.github.io/ec/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-link"
+          >
+            VISIT WEBSITE <span>↗</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- PROJECT 02 : REWRITE HOLDINGS -->
+      <article class="project-card">
+        <a
+          href="https://mcdrn.github.io/rewrite-hp/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="project-visual visual-rewrite"
+          aria-label="REWRITE HOLDINGSのサイトを見る"
+        >
+          <span class="visual-label">CORPORATE / 02</span>
+          <span class="visual-title">REWRITE</span>
+          <span class="visual-caption">HOLDINGS CORPORATE SITE</span>
+          <span class="visual-arrow">↗</span>
+        </a>
+
+        <div class="project-info">
+          <p class="work-category">02 — CORPORATE WEBSITE</p>
+          <h3>REWRITE HOLDINGS</h3>
+          <p class="project-description">
+            企業情報・事業内容・グループ企業・採用情報などを
+            掲載したコーポレートサイト。
+            企業の情報を整理し、各コンテンツへアクセスしやすい
+            サイト構成を目指した制作。
+          </p>
+          <div class="tech-list">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <a
+            href="https://mcdrn.github.io/rewrite-hp/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-link"
+          >
+            VISIT WEBSITE <span>↗</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- PROJECT 03 : FSHD -->
+      <article class="project-card">
+        <a
+          href="https://mcdrn.github.io/rewrite-hp/fshd/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="project-visual visual-fshd"
+          aria-label="ファイナンシャルサービスホールディングスのサイトを見る"
+        >
+          <span class="visual-label">CORPORATE / 03</span>
+          <span class="visual-title">FSHD</span>
+          <span class="visual-caption">FINANCIAL SERVICES</span>
+          <span class="visual-arrow">↗</span>
+        </a>
+
+        <div class="project-info">
+          <p class="work-category">03 — CORPORATE WEBSITE</p>
+          <h3>FINANCIAL SERVICES HD</h3>
+          <p class="project-description">
+            金融・財務アドバイザリー事業を紹介する企業サイト。
+            事業内容や企業の強みを整理し、
+            専門的なサービスの情報を伝える構成を制作。
+          </p>
+          <div class="tech-list">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <a
+            href="https://mcdrn.github.io/rewrite-hp/fshd/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-link"
+          >
+            VISIT WEBSITE <span>↗</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- PROJECT 04 : RELAPIS -->
+      <article class="project-card">
+        <a
+          href="https://mcdrn.github.io/RELAPIS/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="project-visual visual-relapis"
+          aria-label="RELAPISのサイトを見る"
+        >
+          <span class="visual-label">WEB SERVICE / 04</span>
+          <span class="visual-title">RELAPIS</span>
+          <span class="visual-caption">WEB PRODUCTION SERVICE</span>
+          <span class="visual-arrow">↗</span>
+        </a>
+
+        <div class="project-info">
+          <p class="work-category">04 — SERVICE WEBSITE</p>
+          <h3>RELAPIS</h3>
+          <p class="project-description">
+            Webサイト制作やWebマーケティングなどのサービスを
+            紹介するWebサイト。
+            サービス内容・料金プラン・会社概要・お問い合わせを
+            まとめた構成を制作。
+          </p>
+          <div class="tech-list">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <a
+            href="https://mcdrn.github.io/RELAPIS/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-link"
+          >
+            VISIT WEBSITE <span>↗</span>
+          </a>
+        </div>
+      </article>
+
+    </div>
+
+    <p class="works-note">
+      PROJECTS / WEB DESIGN & DEVELOPMENT
+    </p>
+  </div>
+</section>
+```
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <p class="section-number">04 / CONTACT</p>
+        <p class="contact-eyebrow">HAVE A PROJECT IN MIND?</p>
+
+        <h2>
+          LET'S MAKE<br>
+          SOMETHING <span class="accent">GREAT.</span>
+        </h2>
+
+        <p class="contact-description">
+          ご覧いただきありがとうございます。<br>
+          ご連絡はメールよりお願いいたします。
+        </p>
+
+        <!-- 公開前に自分のメールアドレスへ変更する -->
+        <a href="mailto:your-email@example.com" class="contact-button">
+          GET IN TOUCH <span>↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo">PORT<span>FOLIO.</span></a>
+      <p>DESIGNED & BUILT WITH CARE.</p>
+      <p class="copyright">© 2026 PORTFOLIO</p>
+    </div>
+  </footer>
+</body>
+</html>
